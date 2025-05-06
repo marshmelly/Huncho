@@ -62,7 +62,7 @@ const styles = {
     flexDirection: "column",
   },
   image: {
-    width: "100vw",
+    width: "99vw",
     height: "600px",
     borderRadius: "8px",
   },

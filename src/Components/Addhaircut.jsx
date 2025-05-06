@@ -45,7 +45,7 @@ const Addhaircut = () => {
   return (
     <div className="row justify-content-center mt-4 ">
       <div className="col-md-6 card shadow p-2 dola">
-        <h1>Add Haircuts</h1>
+        <h1 className="yo">Add Haircuts</h1>
         {loading}
         {success}
         {error}

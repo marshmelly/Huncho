@@ -3,7 +3,7 @@
     justify-content: space-around;
     box-shadow: 0 1px 3px -2px black;
     background-color: rgb(196, 95, 36);
-    background: linear-gradient(white, green, black);
+    background: linear-gradient(white, black);
     padding: 16px;
     align-items: center;
     position: relative;
@@ -14,7 +14,8 @@
     align-items: center;
     list-style: circle;
     gap: 45px;
-    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(156, 214, 249);
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
@@ -23,7 +24,7 @@
 
 .header {
     align-content: flex-start;
-    font-size: 35px;
+    font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -37,6 +38,11 @@
     flex-direction: column;
     cursor: pointer;
     z-index: 20;
+}
+
+.nav-image{
+    max-width: 250px;
+    max-height: 250px;
 }
 
 .bar {
@@ -61,14 +67,14 @@
 }
 
 /* Responsive styles */
-@media (max-width: 740px) {
+@media (max-width: 840px) {
     .nav-menu {
         flex-direction: column;
         position: absolute;
         top: 20px;
         left: 0;
         width: 100%;
-        background: linear-gradient(to right, rgb(112, 248, 112), rgb(76, 184, 234) );
+        background: linear-gradient(white, black );
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.3s ease-in-out;

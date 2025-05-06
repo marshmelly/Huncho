@@ -14,6 +14,7 @@ import Contact from './Components/COntact';
 import "bootstrap/dist/js/bootstrap.min.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from './Components/Footer';
+import Timsea from './Components/Timsea';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/footer' element={<Footer/>}/>
           <Route path='/navbar' element={<Navbar/>}/>
+          <Route path='/table' element={<Timsea/>}/>
           <Route path='/payments' element={<Payment/>}/>
           <Route path='/signin' element={<SignIn/>}/>
           <Route path='/signup' element={<SignUp/>}/>
